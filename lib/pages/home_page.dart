@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           children: [
             ElevatedButton(onPressed: (){
               DBNotas.db.initDatabase();
-            }, child: Text("Mostra Notas"))
+            }, child: Text("Ver Notas Guardas"))
           ],
         ),
       ),
